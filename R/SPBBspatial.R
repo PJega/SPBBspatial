@@ -23,10 +23,10 @@
 #' @source SMA_SPBB.R
 
 
-#library(spdep)
-#source('./R/SAR_SPBB.R')
-#source('./R/CAR_SPBB.R')
-#source('./R/SMA_SPBB.R')
+library(spdep)
+source('./R/SAR_SPBB.R')
+source('./R/CAR_SPBB.R')
+source('./R/SMA_SPBB.R')
 SPBBspatial<-function(formula, data = list(), nbw, family='SAR',mn.r=-.9,mx.r=.9){
     #nbw:readPolyshap->poly2nb() should be nbw
 
