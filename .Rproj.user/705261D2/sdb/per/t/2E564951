@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: SPBB\nType: Package\nTitle: Saddlepoint-Based Bootstrap (SPBB) Method\nVersion: 0.1.0\nDate: 02/20/2016\nAuthor: Pratheepa Jeganathan\nMaintainer: Pratheepa Jeganathan <jpratheepa31@gmail.com>\nDescription: Construct a confidence interval for a parameter using the saddlepoint approximation\nLicense: GPL-3\nLazyData: TRUE\nRoxygenNote: 5.0.1\n",
+    "created" : 1467987572386.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4206201743",
+    "id" : "2E564951",
+    "lastKnownWriteTime" : 1467990376,
+    "last_content_update" : 1467990376380,
+    "path" : "C:/Users/Pratheepa/Dropbox/47_MyProjectsForPhD/SPBBSpatial/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

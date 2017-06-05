@@ -1,0 +1,11 @@
+Package: SPBB
+Type: Package
+Title: Saddlepoint-Based Bootstrap (SPBB) Method
+Version: 0.1.0
+Date: 02/20/2016
+Author: Pratheepa Jeganathan
+Maintainer: Pratheepa Jeganathan <jpratheepa31@gmail.com>
+Description: Construct a confidence interval for a parameter using the saddlepoint approximation
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
