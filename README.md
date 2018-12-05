@@ -1,4 +1,4 @@
-# spbbspatial
+# SPBBspatial
 Saddlepoint-Based Bootstrap (SPBB) Inference for Spatial Dependence
 
 The SPBB method is used to make accurate (second-order) inference on a parameter of a model when 
@@ -17,8 +17,21 @@ instead of directly approximating the distribution of the estimator.
 The saddlepoint approximation for the distribution of QEE is derived by 
 inverting the closed form expression of the moment generating function of QEE.
 
-"spbbspatial" implements the SPBB method to make an inference of spatial dependence parmeter in the spatial 
+"SPBBspatial" implements the SPBB method to make an inference of spatial dependence parmeter in the spatial 
 regression models such as simultaneous autoregressive models (SAR), conditional autoregressive model, 
 and simultaneous moving average model. 
 By constructing the confidence interval for the spatial parameter in the regression model, 
 we decide on which model should be used to reduce the prediction error.
+
+[SPBBspatial](https://www.sciencedirect.com/science/article/pii/S2211675315000020) paper.
+
+##  Installation
+
+Install the development version from GitHub with:
+```{r}
+# install.packages("devtools")
+devtools::install_github("PratheepaJ/SPBBspatial")
+```
+
+## Workflow
+See [vignettes](https://github.com/PratheepaJ/bootLong/blob/master/vignettes/SPBBspatial.Rmd) for the detailed workflow.
